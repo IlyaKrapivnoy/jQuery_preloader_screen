@@ -1,3 +1,5 @@
 $(window).on("load", function () {
-  $(".preloader").addClass("completed");
+  setTimeout(function () {
+    $(".preloader, .loader").addClass("completed");
+  }, 3000);
 });
