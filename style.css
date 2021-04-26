@@ -24,8 +24,11 @@ body {
     transition: 1s;
 }
 
-.preloader.complete:before {
+.preloader.completed::before {
     left: -50%;
+}
+.preloader.completed::after {
+    right: -50%;
 }
 
 .preloader::after {
